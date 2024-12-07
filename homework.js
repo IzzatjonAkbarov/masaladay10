@@ -27,13 +27,20 @@
 
 // console.log(newarr.length === 2 ? true : false);
 // ===========================================masala5
-let newarr = [];
-let input = ["flower", "flow", "flight"];
-for (let i = 0; i < input.length; i++) {
-  newarr.push(input[i]);
-  for (let j = 0; j < newarr.length; j++) {
-    // const element = array[j];
-    console.log(newarr[j]);
-  }
-  //   console.log(newarr);
-}
+// var newslice = [];
+// var strs = [];
+// let prfx = function (strs) {
+//   if (!strs.length) return " ";
+//   let min = strs[0];
+//   for (let i = 0; i < min.length; i++) {
+//     var newslice = min.slice(0, i + 1);
+//     for (let j = 0; j < strs.length; j++) {
+//       if (!strs[j]?.startswith(newslice)) {
+//         return min.slice(0, i + 1);
+//       }
+//     }
+//   }
+//   return min;
+// };
+// console.log(prfx(["ab", "ab"]));
+// ustoz baribir ishlomadim shunisini
